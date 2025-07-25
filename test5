@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+
+
+    body{border-top: 5px solid;
+    border-color: rgb(3, 100, 226);
+    padding-top: 40px;
+    padding-left: 101px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    pointer-events: 40px;
+    margin: auto;
+    margin: 50px;
+    
+   
+    }
+    h1,h2,h3,h4{color: rgb(2, 176, 219);}
+
+
+
+strong:last-of-type {
+  position: relative;
+}
+
+strong:last-of-type::before {
+  content: "";
+  position: absolute;
+  top: -10px; 
+  left: 0;
+  width: 40%;
+  height: 4px;
+  background-color:rgb(3, 100, 226);}
+aside {
+  position: relative;
+ margin-top: 40px;
+}
+
+aside::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 40%;
+  height: 4px;
+  background-color: rgb(3, 100, 226); }
+
+
+
+
+
+.main-header nav {
+  display: flex;
+
+  gap: 40px;
+}
+
+
+.main-header nav a {
+  text-decoration: none;
+  font-size: 15px;
+  color:rgb(2, 176, 219) ;
+  font-family: Arial, sans-serif;
+  transition: color 0.10s;
+}
+
+.main-header nav a:hover {
+  color: rgb(2, 176, 219);}
+
+
+
+
+</style>
+</head>
+<body>
+
+    <div class="container">
+      <header class="main-header">
+        <h1>📘 The Code Magazine</h1>
+<b>
+        <nav>
+            <a href="blog.html">Blog</a>
+          <a href="#">Challenges</a>
+          <a href="#">Flexbox</a>
+          <a href="#">CSS Grid</a>
+        </nav></b>
+      </header>
+<article>
+        <header class="post-header">
+          <h2>The Basic Language of the Web: HTML</h2>
+
+<div><img src="0714ffee-59ad-4e6a-8de0-21457f85bd9d.jpg" alt="0714ffee-59ad-4e6a-8de0-21457f85bd9d.jpg"  height="50"
+            width="50"></div>
+<p id="author">
+            Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+          </p>
+          <div><img src="578dcc8a-aa47-4211-be12-2a6aa5967596.jpg" alt="578dcc8a-aa47-4211-be12-2a6aa5967596.jpg"  width="500"
+            height="200"
+            class="post-img"></div>
+ <button>❤️ Like</button>
+        </header>
+
+        <p>
+          All modern websites and web applications are built using three
+          <em>fundamental</em>
+          technologies: HTML, CSS and JavaScript. These are the languages of the
+          web.
+        </p>
+
+        <p>
+          In this post, let's focus on HTML. We will learn what HTML is all
+          about, and why you too should learn it.
+        </p>
+
+        <h3>What is HTML?</h3>
+        <p>
+          HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+          <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+          language that web developers use to structure and describe the content
+          of a webpage (not a programming language).
+        </p>
+        <p>
+          HTML consists of elements that describe different types of content:
+          paragraphs, links, headings, images, video, etc. Web browsers
+          understand HTML and render HTML code as websites.
+        </p>
+        <p>In HTML, each element is made up of 3 parts:</p>
+
+        <ol>
+          <li class="first-li">The opening tag</li>
+          <li>The closing tag</li>
+          <li>The actual element</li>
+        </ol>
+
+        <p>
+          You can learn more at
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
+            >MDN Web Docs</a
+          >.
+        </p>
+
+        <h3>Why should you learn HTML?</h3>
+
+        <p>
+          There are countless reasons for learning the fundamental language of
+          the web. Here are 5 of them:
+        </p>
+
+        <ul>
+          <li class="first-li">
+            To be able to use the fundamental web dev language
+          </li>
+          <li>
+            To hand-craft beautiful websites instead of relying on tools like
+            Worpress or Wix
+          </li>
+          <li>To build web applications</li>
+          <li>To impress friends</li>
+          <li>To have fun 😃</li>
+        </ul>
+
+        <p>Hopefully you learned something new here. See you next time!</p>
+      </article>
+
+      <aside>
+        <h4>Related posts</h4>
+<ul>
+    <li> <div><img src="téléchargement.jpg" alt="téléchargement.jpg" height="50" width="50"> <a href="https://www.google.com/search?sca_esv=cfac171d552bca21&sxsrf=AE3TifNgLF5Pilo8jdXoNrE6bKIV7fmDuw:1751488133106&q=web+developer&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeuxdzGL-YY8q5XqjqaSmSo38ymhJzK2z4R7-zVI_DePjcTD6zI9sXBCGmldoIvHfo_b6rKcCFtaYACHNp6jxR35Gnh2ppuZ26DP5WfT-6IUXSVTFOtgN0B7GmsOKQplWYsx22-DsfE3klZqSVDJt6KCyZNw5&sa=X&ved=2ahUKEwjt8IHggZ-OAxUD_AIHHZgWDLsQtKgLKAF6BAgfEAE&biw=773&bih=640">How to Learn Web Devlopmnt</a></div></li>
+
+<p>By Jonas Schmedtmann</p>
+<li><div><img src="téléchargement (1).jpg" alt="téléchargement (1).jpg" height="50" width="50"> <a href="https://www.google.com/imgres?q=%D8%B1%D8%B9%D8%AF&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F2%2F22%2FLightning_14.07.2009_20-42-33.JPG%2F500px-Lightning_14.07.2009_20-42-33.JPG&imgrefurl=https%3A%2F%2Far.wikipedia.org%2Fwiki%2F%25D8%25B1%25D8%25B9%25D8%25AF&docid=QWrWYwlIAX2ePM&tbnid=1rftqXaIkm7e-M&vet=12ahUKEwjr7_-Cg5-OAxWqZ_EDHSuJCr8QM3oECB0QAA..i&w=500&h=280&hcb=2&ved=2ahUKEwjr7_-Cg5-OAxWqZ_EDHSuJCr8QM3oECB0QAA"> The Unknown Powers of CSS</a></div></li>
+<p>By Jim Dillon</p>
+<li> <div><img src="téléchargement (2).jpg" alt="téléchargement (2).jpg" height="50" width="50"> <a href="https://www.google.com/imgres?q=html&imgurl=https%3A%2F%2Fstatic1.makeuseofimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2010%2F03%2FHTML-Understanding-Featured.jpg&imgrefurl=https%3A%2F%2Fwww.makeuseof.com%2Ftag%2F5-steps-understanding-basic-html-code%2F&docid=l1Xa1w4HPC5-qM&tbnid=FwVzi-3RGeeRuM&vet=12ahUKEwiI2cymhJ-OAxU2A9sEHdrwGb4QM3oECG0QAA..i&w=1680&h=840&hcb=2&ved=2ahUKEwiI2cymhJ-OAxU2A9sEHdrwGb4QM3oECG0QAA"> Why JavaScript is Awesome</a></div></li>
+<p>By Matilda </p>
+</ul>
+</aSide>
+<strong>
+      <footer>
+        <p id="copyright" class="copyright text">
+          Copyright &copy; 2027 by The Code Magazine.
+        </p>
+      </footer></strong>
+</body>
+</html>
